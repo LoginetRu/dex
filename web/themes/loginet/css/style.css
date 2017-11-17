@@ -1,0 +1,154 @@
+@import url("normalize.min.css");
+@font-face {
+font-family: 'SFUIDisplay';
+src: url('../fonts/sfuidisplay-regular-webfont.eot');
+src: url('../fonts/sfuidisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/sfuidisplay-regular-webfont.woff2') format('woff2'),
+     url('../fonts/sfuidisplay-regular-webfont.woff') format('woff'),
+     url('../fonts/sfuidisplay-regular-webfont.ttf') format('truetype'),
+     url('../fonts/sfuidisplay-regular-webfont.svg#sf_ui_displayregular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'SFUIDisplay';
+src: url('../fonts/sfuidisplay-medium-webfont.eot');
+src: url('../fonts/sfuidisplay-medium-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/sfuidisplay-medium-webfont.woff2') format('woff2'),
+     url('../fonts/sfuidisplay-medium-webfont.woff') format('woff'),
+     url('../fonts/sfuidisplay-medium-webfont.ttf') format('truetype'),
+     url('../fonts/sfuidisplay-medium-webfont.svg#sf_ui_displaymedium') format('svg');
+font-weight: bold;
+font-style: normal;
+}
+@font-face {
+font-family: 'SFUIDisplay-semibold';
+src: url('../fonts/sfuidisplay-semibold-webfont.eot');
+src: url('../fonts/sfuidisplay-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/sfuidisplay-semibold-webfont.woff2') format('woff2'),
+     url('../fonts/sfuidisplay-semibold-webfont.woff') format('woff'),
+     url('../fonts/sfuidisplay-semibold-webfont.ttf') format('truetype'),
+     url('../fonts/sfuidisplay-semibold-webfont.svg#sf_ui_displaysemibold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+body, html{
+	height: 100%;
+	background: #FFFFFF;
+	font: 14px "SFUIDisplay", Arial, sans-serif;
+}
+*, *:before, *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.popup{
+	margin: auto;
+}
+.auth-page{
+	padding: 20px;
+	display: table;
+	width: 100%;
+	height: 100%;
+	background: #ecf4fd;
+}
+.popup-popup{
+	display: table-cell;
+	vertical-align: middle;
+}
+.popup{
+	margin: 0 auto;
+	max-width: 484px;
+	background: #FFFFFF;
+	box-shadow: 0 0 70px rgba(147, 161, 185, 0.24);
+}
+.popup-title{
+    text-align: center;
+    background: #456b9c;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 33px 20px;
+    border-bottom: 5px solid #e88e23;
+}
+.popup-content{
+	padding: 20px;
+}
+.auth-form{
+	max-width: 290px;
+	margin: 0 auto;
+	padding: 46px 0 0;
+}
+.form-group{
+	margin: 0 0 20px;
+	position: relative;
+}
+.input{
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #e6e9ef;
+	color: #8492af;
+	font-size: 12px;
+	height: auto;
+	line-height: normal;
+    padding: 8px 0;
+	outline: none!important;
+	-webkit-transition: padding 0.2s;
+	-o-transition: padding 0.2s;
+	transition: padding 0.2s;
+}
+.input:focus{
+	padding-left: 5px;
+}
+.btn{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 11px 15px;
+    background: #456b9c;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: block;
+    border: none;
+    outline: none!important;
+    min-width: 130px;
+	-webkit-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.btn:hover{
+	background-color: #4377b9;
+}
+.btn-submit{
+	margin: 0 auto;	
+}
+.login-input{
+	background-image: url("../images/user.png");
+	background-repeat: no-repeat;
+	background-position: 3px 50%;
+	padding-left: 35px;
+}
+.pass-input{
+	background-image: url("../images/password.png");
+	background-repeat: no-repeat;
+	background-position: 3px 50%;
+	padding-left: 35px;
+}
+.login-input:focus, .pass-input:focus{
+	padding-left: 40px;
+}
+.auth-form .btn-submit{
+	margin-top: 63px;
+}
+.error-password{
+	color: red;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
